@@ -34,15 +34,16 @@
 .main_header {
 	width: 100%;
 	margin: 0 auto;
-	background: white;
+	background: #397CAC;
 	#logo {
 		float: left;
 		a {
 			text-transform: uppercase;
-			font-weight: 700;
+			font-weight: 350;
 			font-size: 1.2rem;
 			text-decoration: none;
-			color: #397CAC;
+			color: white;
+
 		}
 	}
 	#buttons {
@@ -51,10 +52,12 @@
 			line-height: 60px;
 			background: #397CAC;
 			padding: .5em 1em;
-			border-radius: 0.2em;
+			border-radius: 0.3em;
 			color: white;
 			text-decoration: none;
-			font-weight: 100;
+			font-weight: 400;
+			border: 1px solid white;
+
 		}
 	}
 }
@@ -91,7 +94,13 @@
 	padding: .25em 0.75em;
 	border-radius: 0.25em;
 	text-decoration: none;
-}
+}.button:hover {
+    background-color:#397CAC;
+    color:white;
+}.create:active {
+    position:relative;
+    top:1px;
+}   
 #post_content {
 	background: #e6e6e6;
 	padding : 2em 5%;
@@ -166,3 +175,34 @@
 		}
 	}
 }
+
+#edit {
+	h2{
+		font-weight: 200;
+		font-size: 2em;
+		color: white;
+		margin-top: 0;
+		border : 1px solid #d1d1d1;
+		border-radius: .2em;
+		padding: .15em 1em;
+		background: #397CAC;
+		padding-left: 350px;
+
+	}
+	.buttons {
+		color: #397CAC;
+		border: 2px solid #397CAC;
+		padding: .25em 0.75em;
+		border-radius: 0.25em;
+		text-decoration: none;
+		
+	}
+}
+
+.textarea1 {
+			width: 100%;
+			min-height: 200px;
+			border: 1px solid #d1d1d1;
+			border-radius: .2em;
+			margin: 1em 0;
+		}

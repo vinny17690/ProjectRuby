@@ -1,5 +1,9 @@
-%h1 Edit Reply
+#edit
+	%h2 
+		Edit Reply
 
-= simple_form_for([@post, @comment]) do |f|
-	=f.input :comment
-	=f.submit
+	= simple_form_for([@post, @comment]) do |f|
+		
+
+		=f.input :comment 
+		=f.submit :class => "button"
